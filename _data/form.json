@@ -443,19 +443,6 @@
                },
               "required_message":"Please provide an answer"
            },
-           "dependants":{
-              "type":"radio",
-              "required":true,
-              "label":"Do you have caring responsibilities for children or other adults?",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "Yes caring for children",
-                 "Yes caring for adults",
-                 "No caring responsibilites"
-              ],
-              "required_message":"Please provide an answer"
-           },
            "disabilities":{
               "type":"radio",
               "required":true,
@@ -487,99 +474,6 @@
               "required_message":"Please provide an answer",
               "other":"Other ethnic group",
               "other_text":"Please provide us with your ethnicity"
-           },
-           "married":{
-              "type":"radio",
-              "required":true,
-              "label":"Are you Married or In civil partnership",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "Yes",
-                 "No",
-                 "Prefer not to say"
-              ],
-              "required_message":"Please provide an answer"
-           },
-           "pregnant":{
-              "type":"radio",
-              "required":true,
-              "label":"Are you currently pregnant \/ on parental \/ maternity leave:",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "Yes",
-                 "No",
-                 "Prefer not to say"
-              ],
-              "required_message":"Please provide an answer"
-           },
-           "religion":{
-              "type":"radio",
-              "required":true,
-              "label":"Religion \/ belief",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "No religion",
-                 "Christian",
-                 "Buddhist",
-                 "Hindu",
-                 "Jewish",
-                 "Muslim",
-                 "Sikh",
-                 "Any other religion",
-                 "Prefer not to say"
-              ],
-              "required_message":"Please provide an answer",
-              "other":"Any other religion",
-              "other_text":"Please provide your religion"
-           },
-           "sexual_orientation":{
-              "type":"radio",
-              "required":true,
-              "label":"Sexual Orientation?",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "Heterosexual",
-                 "Homosexual",
-                 "Bisexual",
-                 "Prefer not to say",
-                 "Other"
-              ],
-              "required_message":"Please provide an answer",
-              "other":"Other",
-              "other_text":"Please enter your sexual orientation"
-           },
-           "gender":{
-              "type":"radio",
-              "required":true,
-              "label":"Gender?",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "Male",
-                 "Female",
-                 "Other",
-                 "Prefer not to say"
-              ],
-              "required_message":"Please provide an answer",
-              "other":"Other",
-              "other_text":"Please enter your gender"
-           },
-           "gender_reassignment":{
-              "type":"radio",
-              "required":true,
-              "label":"Gender Reassignment?",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "Yes",
-                 "No",
-                 "Prefer not to say"
-              ],
-              "required_message":"Please provide an answer"
            }
         }
      },
@@ -588,27 +482,6 @@
         "label":"Are you eligible for funding?",
         "help":"This course is Gov funded and FREE for you - so obviously there is paperwork for us to complete. We need this information to be able to progress your application so please don't leave any out.",
         "fields":{
-           "employment":{
-              "type":"radio",
-              "required":true,
-              "label":"Employment Status",
-              "class":"wide",
-              "help":"",
-              "options":[
-                 "in full-time employment",
-                 "in part-time employment",
-                 "self-employed",
-                 "unemployed for more than 12 months",
-                 "unemployed for less than 12 months",
-                 "in training \/education",
-                 "retired",
-                 "long term sickness",
-                 "parental leave \/ other caring responsibilities"
-              ],
-              "required_message":"Please provide an answer",
-              "other":"in training \/education",
-              "other_text":"If you are studying, what are you studying and where?"
-           },
            "employment_eligability":{
               "type":"radio",
               "required":true,
@@ -637,14 +510,6 @@
               "class":"wide",
               "help":"",
               "required_message":"Please provide a valid postcode"
-           },
-           "national_insurance":{
-              "type":"text",
-              "required":true,
-              "label":"National Insurance Number",
-              "class":"wide",
-              "help":"",
-              "required_message":"Please provide a valid NI number"
            }
         }
      },
