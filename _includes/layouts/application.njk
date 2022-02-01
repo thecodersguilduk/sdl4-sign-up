@@ -81,7 +81,7 @@
                                                     <label for="{{fieldID}}" class="font-medium text-gray-700">{{option}}</label>
                                                 </div>
                                             </div>
-                                        {% endfor %}  
+                                        {% endfor %}
                                         {% if (field.other) or (not ukSelected) %}
                                             <div class="other other__{{name}}">
                                                 <p class="m-2 text-sm text-gray-500">{{field.other_text}}</p>
@@ -134,7 +134,7 @@
                                                     {% endswitch %}
                                                 </div>
                                             </div>
-                                        {% endfor %} 
+                                        {% endfor %}
                                         {% if field.other %}
                                             <div class="other other__{{name}}">
                                                 <p class="m-2 text-sm text-gray-500">{{field.other_text}}</p>
@@ -150,7 +150,7 @@
                                                         var currentCheckbox = jQuery(this);
                                                         if(currentCheckbox.prop('checked')){
                                                             if(currentCheckbox.attr('id') == '{{optionID}}'){
-                                                                optionContainer.show();   
+                                                                optionContainer.show();
                                                             } else {
                                                                 optionContainer.hide();
                                                             }
@@ -161,38 +161,20 @@
                                         {% endif %}
                                     {% case 'select' %}
                                         <div class="relative flex items-start">
-                                            <select name="{{name}}" id="{{name}}" class="form-select"> 
+                                            <select name="{{name}}" id="{{name}}" class="form-select">
                                                 <option value="">Please Select</option>
                                                 {% for key,option in field.options %}
                                                     <option value="{{key}}">{% if option.name %}{{option.name}}{% else %}{{option}}{% endif %}</option>
-                                                {% endfor %} 
+                                                {% endfor %}
                                             </select>
                                         </div>
-                                        <script>
-                                            var ukSelected = true;
-                                            var nationalityField = document.getElementById('nationality');
-                                            var optionContainer = document.querySelector('.nationality');
-                                        
-                                            nationalityField.addEventListener('change', ()=>{
-                                                if(nationalityField.value !== 'EU Citizen'){
-                                                    ukSelected = true; 
-                                                    optionContainer.style.display = 'none'
-                                                    
-                                                } else {
-                                                    ukSelected = false;
-                                                    optionContainer.style.display = 'block';
-                                                    
-                                                }
-                                            })
-                                            
-                                        </script>  
-                                        {% if not ukSelected %}
+                                       {% if field.other %}
                                             <div class="other nationality">
                                                 <p class="m-2 text-sm text-gray-500">{{field.other_text}}</p>
                                                 <input id="{{name}}_option_selected" name="{{name}}_option_selected" class="form-input mt-1 mb-1 block w-full placeholder-muted" {% if field.required_message %}required{%endif%} />
                                             </div>
                                         {% endif %}
-                                        
+
                                     {% case 'textarea' %}
                                         <textarea id="{{name}}" name="{{name}}" rows="3" class="form-textarea block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5"></textarea>
                                     {%default%}

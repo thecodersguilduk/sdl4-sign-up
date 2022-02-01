@@ -69,19 +69,46 @@
               "other_text":"Please enter below"
            },
            "nationality":{
-            "type":"select",
+            "type":"radio",
             "required":true,
             "label":"Nationality",
             "class":"wide",
             "help":"Help us to assess your eligibility for the course by selecting one of the following options",
-            "options":{
-               "UK Citizen": "UK Citizen",
-               "EEC Citizen": "EEC Citizen",
-               "EU Citizen": "EU Citizen",
-               "Other": "Other"
-            },
+            "options":[
+               "UK Citizen",
+               "EEC Citizen",
+               "EU Citizen",
+               "Other"
+            ],
+            "other": "Other",
             "required_message":"Please select an option from the dropdown list",
-            "other_text": "Please supply your residential/pre-settled status"
+            "other_text": "Please supply your nationality"
+         },
+         "residential_status":{
+            "type":"radio",
+            "required":true,
+            "label":"Residential Status",
+            "class":"wide",
+            "help":"Have you resided in the UK or EEA for the last 3 years?",
+            "options":[
+               "Yes",
+               "No"
+            ],
+            "required_message":"This question is required to assess your eligibility"
+         },
+         "limited_leave":{
+            "type":"radio",
+            "required":true,
+            "label":"Limited Leave",
+            "class":"wide",
+            "help":"Do you have limited leave in the UK?",
+            "options":[
+               "Yes",
+               "No"
+            ],
+            "other": "Yes",
+            "required_message":"Please select an option from the dropdown list",
+            "other_text": "Please supply more details"
          },
            "where_are_you_looking_to_work":{
                "type":"checkbox",
