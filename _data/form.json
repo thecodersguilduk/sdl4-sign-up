@@ -81,7 +81,7 @@
                "Other"
             ],
             "other": "Other",
-            "required_message":"Please select an option from the dropdown list",
+            "required_message":"Please select an option",
             "other_text": "Please supply your nationality"
          },
          "residential_status":{
@@ -107,7 +107,7 @@
                "No"
             ],
             "other": "Yes",
-            "required_message":"Please select an option from the dropdown list",
+            "required_message":"Please select an option",
             "other_text": "Please supply more details"
          },
            "where_are_you_looking_to_work":{
