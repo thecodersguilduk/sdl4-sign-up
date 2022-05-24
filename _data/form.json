@@ -140,8 +140,14 @@
                "options":{
                  "Ascensor Limited": {
                 "name": "Ascensor Limited",
-                "job_title": "Front End Developer Apprentice",
+                "job_title": "SOftware Developer Apprentice",
                 "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/1000042866",
+                "location": "York"
+              },
+                 "Imhotek Consulting Ltd": {
+                "name": "Imhotek Consulting Ltd",
+                "job_title": "Front End Developer Apprentice",
+                "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/1000046022",
                 "location": "Leeds"
               }
             },
