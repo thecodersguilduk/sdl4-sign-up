@@ -149,6 +149,18 @@
                 "job_title": "Software Developer Apprentice",
                 "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/1000088653",
                 "location": "Tadcaster"
+              },
+             "Tred Earth": {
+                "name": "Tred Earth",
+                "job_title": "Software Developer Apprentice",
+                "url": "#",
+                "location": "Leeds"
+              },
+             "Low & Behold": {
+                "name": "Low & Behold",
+                "job_title": "Software Developer Apprentice",
+                "url": "#",
+                "location": "Carlisle"
               }
             },
                "required_message":"Please provide an answer"
