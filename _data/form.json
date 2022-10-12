@@ -138,12 +138,6 @@
                "class":"wide",
                "help":"If you have come here via the .gov find an apprenticeship site or a job board the vacancy will be for a specific organisation - if not applicable just leave this blank",
             "options":{
-                 "Pragmatic Digital": {
-                "name": "Pragmatic Digital",
-                "job_title": "Software Developer Apprentice",
-                "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/1000088641",
-                "location": "Leeds"
-              },
               "Innserve": {
                 "name": "Innserve",
                 "job_title": "Software Developer Apprentice",
@@ -153,14 +147,8 @@
              "Tred Earth": {
                 "name": "Tred Earth",
                 "job_title": "Software Developer Apprentice",
-                "url": "#",
+                "url": "https://www.findapprenticeship.service.gov.uk/apprenticeship/1000089755",
                 "location": "Leeds"
-              },
-             "Low & Behold": {
-                "name": "Low & Behold",
-                "job_title": "Software Developer Apprentice",
-                "url": "#",
-                "location": "Carlisle"
               }
             },
                "required_message":"Please provide an answer"
